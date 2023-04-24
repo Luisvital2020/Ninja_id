@@ -22,7 +22,7 @@ class NinjaCard extends StatelessWidget {
         padding: EdgeInsets.fromLTRB(30.0, 40.0, 30.0, 0.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
-           children: <widget>[
+           children: <Widget>[
              Center(
                CircleAvatar(
                  backgroundImage: AssetImage('assets/avatar2.png'),
@@ -70,7 +70,7 @@ class NinjaCard extends StatelessWidget {
              ),
              SizedBox(height: 30.0),
              Row(
-               children: <widget>[
+               children: <Widget>[
                  Icon(
                    Icons.email,
                    color: Colors.grey[400],
